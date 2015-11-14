@@ -8,3 +8,12 @@ Blue Tiles: water tiles
 Purple Tiles: slippery, you will slide to the next tile
     -slippery soap smells like lemons, which piranhas do not like
 Pink Tiles: do not do anything- step on them all you like.
+
+brainstorm:
+
+surprise tile (disguised as a pink tile):
+	springs the player up in the air.
+	teleports the player to a different area of the map
+	send a ball or other object that the player has to avoid
+	mixes up the tile arrangement
+	opens up some kind of secret task
