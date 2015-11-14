@@ -1,0 +1,10 @@
+Red Tiles: impassable
+Yellow Tiles: electric
+Green Tiles: fight a monster
+Orange Tiles: orange scented
+Blue Tiles: water tiles
+    -if you smell like oranges, the piranhas will bite you
+    -if a yellow tile is next to a blue tile, you will get zapped.
+Purple Tiles: slippery, you will slide to the next tile
+    -slippery soap smells like lemons, which piranhas do not like
+Pink Tiles: do not do anything- step on them all you like.
