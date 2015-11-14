@@ -1,3 +1,5 @@
+Original Rules:
+
 Red Tiles: impassable
 Yellow Tiles: electric
 Green Tiles: fight a monster
@@ -9,14 +11,19 @@ Purple Tiles: slippery, you will slide to the next tile
     -slippery soap smells like lemons, which piranhas do not like
 Pink Tiles: do not do anything- step on them all you like.
 
-brainstorm:
+Brainstorm:
 
-surprise tile (disguised as a pink tile):
-	springs the player up in the air.
-	teleports the player to a different area of the map
-	send a ball or other object that the player has to avoid
-	mixes up the tile arrangement
-	opens up some kind of secret task
+-surprise tile (disguised as a pink tile):
+  -can create a troll map where there is a path of pink tiles that do surprise things
+	-springs the player up in the air.
+	-teleports the player to a different area of the map
+	-send a ball or other object that the player has to avoid
+	-mixes up the tile arrangement
+	-opens up some kind of secret task
+
+Count:
+	-record number of each tiles and calculate score
+	-give a hint that shows how many tiles are left in the known path
 
 Tiles number types:
 Pink = 0
