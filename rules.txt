@@ -17,3 +17,12 @@ surprise tile (disguised as a pink tile):
 	send a ball or other object that the player has to avoid
 	mixes up the tile arrangement
 	opens up some kind of secret task
+
+Tiles number types:
+Pink = 0
+Red = 1
+Blue = 2
+Green = 3
+Purple = 4
+Yellow = 5
+Orange = 6
