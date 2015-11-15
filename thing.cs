@@ -25,14 +25,16 @@ public class playerController : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.gameObject.CompareTag ("Pick Up")) {
-			other.gameObject.SetActive(false);
-			count++;
-			countText.text = "Count: " + count;
-		}
-		if (count >=6)
+		String s = other.gameObject.Tag;
+		case(s)
 		{
-			winText.text="YOU WIN BITCH";
+			case "Blue":   if(!checkForYellow(this.x,this.y) && this.status!=orange) break;
+			case "Yellow": die();
+						   break;
+			case "Red":	   die();
+							break;
+			case "Purple": die();
+							
 		}
 	}
 	
@@ -66,6 +68,7 @@ public class playerController : MonoBehaviour {
 			return true;
 		}
 	}
+	
 	boolean onMap(x,y)
 	{
 		if(x>maxX || y> maxY)
