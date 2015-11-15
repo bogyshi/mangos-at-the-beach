@@ -20,6 +20,7 @@ Brainstorm:
 	-send a ball or other object that the player has to avoid
 	-mixes up the tile arrangement
 	-opens up some kind of secret task
+	-adds a wall as an obstacle
 
 Count:
 	-record number of each tiles and calculate score
