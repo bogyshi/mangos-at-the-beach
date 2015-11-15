@@ -1,0 +1,58 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class thing: MonoBehaviour {
+
+	/*void OnTriggerEnter(Collider other) {
+		String s = other.gameObject.Tag;
+		case(s)
+		{
+			case "Blue":   if(!checkForYellow(this.x,this.y) && this.status!=orange) break;
+			case "Yellow": die();
+						   break;
+			case "Red":	   die();
+							break;
+			case "Purple": die();
+							
+		}
+	}
+	
+	bool isViable(int x, int y)
+	{
+		if(y==maxY) return true;
+		if(!onMap(x,y)) return false;
+		
+		int color = map[x,y];
+		switch(color)
+		{
+			case 6: player.status=orange;
+			case 0: return isViable(x+1,y) || isViable(x-1,y) || isViable[x,y+1];
+			case 1: return false;
+			case 2: if(checkForYellow(x,y)) return false; return true;
+			case 3: player.status=clean;
+					return isViable(x+1,y) || isViable(x-1,y) || isViable[x,y+1];
+			case 4: return false;
+			case 5: return false;
+			
+		}
+	}
+	bool checkForYellow(int x, int y)
+	{
+		int color1 = map[x-1,y];
+		int color2 = map[x+1,y];
+		int color3 = map[x,y+1];
+		
+		if(color1 == 5 || color2 == 5 || color3 == 5)
+		{
+			return true;
+		}
+	}
+	
+	bool onMap(int x, int y)
+	{
+		if(x>maxX || y> maxY)
+			return false;
+		else return true;
+	}*/
+}
